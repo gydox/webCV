@@ -1,0 +1,152 @@
+/*The background*/
+
+.navi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inavi li {
+    float: left;
+}
+
+.inavi a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: black;
+}
+
+.nameTag {
+    font-family: 'Apercu,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif';
+    text-align: left;
+}
+
+.infoTag ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.infoTag li {
+    text-align: right;
+    margin: 0px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.infoTag td.infoTag, p.infoTag, i.bioDesc {
+    text-align: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+#bioDesc {
+    font-size: 14px;
+}
+
+.wall {
+    background-color: #bdbdbd;
+    text-align: center;
+}
+
+.main {
+    font-family: Apercu, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 100%;
+}
+
+.contentShell {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    align-self: center;
+    /* background-color: #eaeaea; */
+    width: 82%;
+    height: 100%;
+    margin: 10px;
+}
+
+.myTopTable {
+    width: 100%;
+    margin: 1px;
+}
+
+.myTable {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 82%;
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+
+/* #mytable table, td {
+    border: 1px dotted black;
+} */
+
+.content {
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin: 2px;
+}
+
+.leftColl {
+    text-align: right;
+    margin-right: 15px;
+    padding-right: 18px;
+    width: 50%;
+}
+
+.leftColl p, h3 {
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+
+.rightColl {
+    text-align: left;
+    margin-left: 15px;
+    padding-left: 18px;
+    width: 50%;
+}
+
+.rightColl p, h3 {
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+
+.foot ul {
+    display: inline;
+}
+
+.foot {
+    text-align: center;
+}
+
+.foot li {
+    color: white;
+    display: inline;
+    margin: 10px;
+}
+
+.darkenLink {
+    color: black;
+    font-feature-settings: normal;
+    font-display: normal;
+}
+
+/* .btm {
+    background-color: black;
+} */
